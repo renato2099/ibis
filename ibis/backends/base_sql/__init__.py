@@ -8,12 +8,12 @@ import datetime
 import itertools
 import math
 
-import ibis
+ibis/sql/__init__.py
+import ibis.backends.base_sqlalchemy.compiler as comp
 import ibis.common.exceptions as com
 import ibis.expr.datatypes as dt
 import ibis.expr.operations as ops
 import ibis.expr.types as ir
-import ibis.sql.compiler as comp
 from ibis.impala import identifiers
 
 
